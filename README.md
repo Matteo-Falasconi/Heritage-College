@@ -8,7 +8,7 @@ mattfalasconi@gmail.com
 Heritage College
 
 
-First-year Computer Science
+Second-year Computer Science
 
 
 The Program Exit Assessment is about expressing all that we have learned throughout the program 
