@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/Site.css">
+  <title>Falasconi's Paninis About Page</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="./images/paninilogo.png" alt="Panini Logo" width="334"></a>
+    </div>
+    <div id="banner">
+    </div>
+    <nav>
+      <ol>
+        <li><a href="order.html" id="order"><img src="./images/tomato.png" alt="Tomato" width="32">Order</a></li>
+        <li><a href="about.html"><img src="./images/tomato.png" alt="Tomato" width="32">About Us</a></li>
+        <li class="hideNav"><a href="hours.html"><img src="./images/tomato.png" alt="Tomato" width="32">Open Hours</a>
+        </li>
+        <li class="hideNav"><a href="employees.html"><img src="./images/tomato.png" alt="Tomato" width="32">The
+            Family</a></li>
+        <li><a href="request.html"><img src="./images/tomato.png" alt="Tomato" width="32">Request Menu</a></li>
+      </ol>
+    </nav>
+  </header>
+  <div class="padback">
+    <div class="titleText">
+      <h1>What Makes Us the Best</h1>
+    </div>
+  </div>
+  <div class="padtext">
+    <div class="paniniText">
+      <p class="smallerFont">
+        It all started in 2005, up on the Alps of Italy where a humble family of the Falasconi's
+        owned a panini shop. The shop started from this small family owned business that was locally known for
+        their top of the line panini's freshly made with all naturally harvested ingredients from their fields.
+        The business started to gather the popularity all across Italy, and soon it was time for them
+        to go international. We needed to expand through the internet, and this website was the child of that idea.
+        We will bring the amazing taste of our paninis to all of you around the world. Not only that, but we have shop
+        sites in 8
+        different countries and hope to expand even further. We take pride in our craft and will not use any non-local
+        ingredients that aren't ethically sourced. Thank you for reading this if you have gotten this far.
+        Hope to see you soon!
+      </p>
+      <div id="hideImg2">
+        <img src="./images/Alps.jpg" alt="The Alps" width="340">
+      </div>
+    </div>
+  </div>
+  <div class="padback">
+    <div class="titleText">
+      <h1>Watch Our Official Video!</h1>
+    </div>
+  </div>
+  <div class="padtext">
+    <div class="paniniText">
+      <video controls>
+        <source src="./media/PaniniVideo.webm" type="video/webm">
+        <source src="./media/PaniniVideo.mp4" type="video/mp4">
+      </video>
+      <div class="hideP">
+        <blockquote>"The Paninis here, so good!"</blockquote>
+        <p>-Heraj</p>
+        <blockquote>"They were really responsable with the task at hand."</blockquote>
+        <p>-Avery</p>
+        <blockquote>"Greatest investment I have ever made!"</blockquote>
+        <p>-Ibrahim</p>
+      </div>
+    </div>
+  </div>
+  <div class="padback">
+    <div class="titleText">
+      <h1>What do you Think of us?</h1>
+    </div>
+  </div>
+  <div class="padtext">
+    <div class="paniniText">
+      <form name="request">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" size="30" maxlength="30" placeholder="Name">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" size="30" maxlength="30" placeholder="Email">
+        <fieldset>
+          <legend>How would you rate our place?</legend>
+          <input value="1" type="radio" name="rg1" id="rg1_1">
+          <label for="rg1_1">1</label>
+          <br>
+          <input value="2" type="radio" name="rg1" id="rg1_2">
+          <label for="rg1_2">2</label>
+          <br>
+          <input value="3" type="radio" name="rg1" id="rg1_3">
+          <label for="rg1_3">3</label>
+          <br>
+          <input value="4" type="radio" name="rg1" id="rg1_4">
+          <label for="rg1_5">4</label>
+          <br>
+          <input value="5" type="radio" name="rg1" id="rg1_5">
+          <label for="rg1_5">5</label>
+        </fieldset>
+        <label for="fix">Tell us what to improve (optional).</label>
+        <select name="fix" id="fix">
+          <option value="0">Select One</option>
+          <option value="1">Staff</option>
+          <option value="2">Customer Service</option>
+          <option value="3">Prices</option>
+          <option value="4">Advertisements</option>
+          <option value="5">Other</option>
+        </select>
+        <label>How did you find out about Us?</label>
+        <label for="ch1">Online</label><br>
+        <input type="checkbox" id="ch1" name="ch" value="Online">
+        <label for="ch2">Advertisements</label><br>
+        <input type="checkbox" id="ch2" name="ch" value="Advertisements">
+        <label for="ch3">Other</label><br>
+        <input type="checkbox" id="ch3" name="ch" value="Online">
+        <label for="cmt">What would you like to tell us?</label>
+        <textarea name="cmt" id="cmt" cols="30" rows="10"></textarea>
+        <div id="actions">
+          <input type="button" id="submit" value="Submit">
+          <input type="reset" id="cancel" value="Cancel">
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="imgLinks">
+    <a href="hours.html">
+      <div id="bottomHomeImg">
+        <h2>Open Hours</h2>
+      </div>
+    </a>
+    <a href="employees.html">
+      <div id="employeeLinkImg">
+        <h2>Our Family</h2>
+      </div>
+    </a>
+  </div>
+  <div class="bottom">
+    <a href="order.html">Order</a>
+    <a href="about.html">About Us</a>
+    <a href="hours.html">Open Hours</a>
+    <a href="employees.html">The Family</a>
+    <a href="request.html">Request Ingredient</a>
+    <footer>
+      <p>
+        Falasconi's Paninis Official Website is provided by Falasconi's
+        Paninis
+      </p>
+      <p>Copyright &copy; 2022</p>
+      <p>Domain name: falasconispanini.com</p>
+      <a href="https://www.pexels.com/photo/brown-volkswagen-beetle-parked-outside-between-buildings-2975228/">Our Family Image</a>
+      <a href="https://www.shutterstock.com/image-photo/beautiful-mountain-hill-trees-2216238157?irclickid=3PzWfByI8xyNTdX1o92qJUHWUkAx4kRzXWF70o0&irgwc=1&utm_campaign=TinEye&utm_medium=Affiliate&utm_source=77643&utm_term=">Alps Image</a>
+      <div id="footerImg">
+        <img src="./images/tomatoWhite.PNG" alt="Tomato" width="50">
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

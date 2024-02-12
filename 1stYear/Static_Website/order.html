@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/Site.css">
+  <title>Falasconi's Paninis About Page</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="./images/paninilogo.png" alt="Panini Logo" width="334"></a>
+    </div>
+    <div id="banner">
+    </div>
+    <nav>
+      <ol>
+        <li><a href="order.html" id="order"><img src="./images/tomato.png" alt="Tomato" width="32">Order</a></li>
+        <li><a href="about.html"><img src="./images/tomato.png" alt="Tomato" width="32">About Us</a></li>
+        <li class="hideNav"><a href="hours.html"><img src="./images/tomato.png" alt="Tomato" width="32">Open Hours</a>
+        </li>
+        <li class="hideNav"><a href="employees.html"><img src="./images/tomato.png" alt="Tomato" width="32">The
+            Family</a></li>
+        <li><a href="request.html"><img src="./images/tomato.png" alt="Tomato" width="32">Request Menu</a></li>
+      </ol>
+    </nav>
+  </header>
+  <div class="padback">
+    <div class="titleText">
+      <h1>Panini Menu</h1>
+    </div>
+  </div>
+  <div class="grid">
+    <div class="box">
+      <img src="./images/CheesePanini.jpg" alt="Cheese Panini" width="400">
+      <h3>Cheese Panini</h3>
+      <h4>S: $4.99 M: $6.99 L: $7.99</h4>
+    </div>
+    <div class="box">
+      <img src="./images/paninihomeimage2.jpg" alt="Italian Panini" width="250">
+      <h3>Italian Panini</h3>
+      <h4>S: $4.99 M: $7.99 L: $9.99</h4>
+    </div>
+    <div class="box">
+      <img src="./images/paninihomeimage3.jpg" alt="Vegetable Panini" width="250">
+      <h3>Vegetable Panini</h3>
+      <h4>S: $4.99 M: $6.99 L: $7.99</h4>
+    </div>
+  </div>
+  <div class="padback">
+    <div class="titleText">
+      <h1>Custom Made Panini</h1>
+    </div>
+  </div>
+  <div class="padtext">
+    <div class="paniniText">
+      <form name="orderMenu">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" size="30" maxlength="30" placeholder="Name">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" size="30" maxlength="30" placeholder="Email">
+        <fieldset>
+          <legend>Size of Panini</legend>
+          <input value="1" type="radio" name="rg1" id="rg1_1">
+          <label for="rg1_1">Small</label>
+          <br>
+          <input value="2" type="radio" name="rg1" id="rg1_2">
+          <label for="rg1_2">Medium</label>
+          <br>
+          <input value="3" type="radio" name="rg1" id="rg1_3">
+          <label for="rg1_3">Large</label>
+        </fieldset>
+        <label for="bread">Type of Bread:</label>
+        <select name="bread" id="bread">
+          <option value="0">Select One</option>
+          <option value="1">White</option>
+          <option value="2">Whole grain</option>
+          <option value="3">Gluten Free</option>
+          <option value="4">Garlic</option>
+          <option value="5">Cheese</option>
+        </select>
+        <label for="meat">Type of Meat:</label>
+        <select name="meat" id="meat">
+          <option value="0">Select One</option>
+          <option value="1">Salami</option>
+          <option value="2">Chicken</option>
+          <option value="3">Beef</option>
+          <option value="4">Plant Based Meat</option>
+          <option value="5">No Meat</option>
+        </select>
+        <label for="veg">Type of Vegetable:</label>
+        <select name="veg" id="veg">
+          <option value="0">Select One</option>
+          <option value="1">Tomato</option>
+          <option value="2">Spinach</option>
+          <option value="3">Cucumber</option>
+          <option value="4">Pepper</option>
+          <option value="5">Onion</option>
+          <option value="5">No Vegetable</option>
+        </select>
+        <label for="cheese">Type of Cheese:</label>
+        <select name="cheese" id="cheese">
+          <option value="0">Select One</option>
+          <option value="1">Cheddar</option>
+          <option value="2">Swiss</option>
+          <option value="3">Dairy Free</option>
+          <option value="4">Mozaarella</option>
+          <option value="5">Pepper Jack</option>
+          <option value="6">No Cheese</option>
+        </select>
+        <div id="actions">
+          <input type="button" id="orderB" value="Order">
+          <input type="reset" id="cancel" value="Cancel">
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="padtext">
+    <div class="paniniText">
+      <p id="phone">Phone Number: (123) 123-1234</p>
+    </div>
+  </div>
+
+  <div class="bottom">
+    <a href="order.html">Order</a>
+    <a href="about.html">About Us</a>
+    <a href="hours.html">Open Hours</a>
+    <a href="employees.html">The Family</a>
+    <a href="request.html">Request Ingredient</a>
+    <footer>
+      <p>
+        Falasconi's Paninis Official Website is provided by Falasconi's
+        Paninis
+      </p>
+      <p>Copyright &copy; 2022</p>
+      <p>Domain name: falasconispanini.com</p>
+      <a href="https://www.pexels.com/photo/cooked-food-1885578/">Cheese Panini Image</a>
+      <a href="https://unsplash.com/photos/FehgLAdvF4Y">Veggie Panini Image
+      </a>
+      <a href="https://unsplash.com/photos/1cVBZz5pDrM">Italian Panini</a>
+      <div id="footerImg">
+        <img src="./images/tomatoWhite.PNG" alt="Tomato" width="50">
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

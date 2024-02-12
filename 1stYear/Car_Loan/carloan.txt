@@ -1,0 +1,4 @@
+Honda Civic~10000
+Porsche 911~50000
+Chevrolet Blazer~20000
+Toyota Camry~15000

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#392859"
+    tools:context=".TitleScreenActivity">
+
+    <TextView
+        android:id="@+id/lblMainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/aladin"
+        android:text="Word Magic"
+        android:textColor="#FFEB3B"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="379dp"
+        android:layout_height="422dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/aladin"
+        android:text="A goblin titled: &quot;Goblin Guy Grug&quot; has acquired the powerful sword to punish inexperienced magic users. You've been assigned to take him! Use your words to cast out the magic within your trusty Flame Staff to eliminate Grug! \nYou're our last hope, Goodluck!\n\n-The One Above All"
+        android:textColor="#DDDCCF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblMainTitle" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="378dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="17dp"
+        android:backgroundTint="#978C33"
+        android:fontFamily="@font/black_han_sans"
+        android:text="ACCEPT"
+        android:textColor="#DDDCCF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescription" />
+</androidx.constraintlayout.widget.ConstraintLayout>

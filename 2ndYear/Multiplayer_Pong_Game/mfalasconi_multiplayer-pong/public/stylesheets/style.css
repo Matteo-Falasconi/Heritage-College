@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  background-color: #260C1A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #dddd97;
+  font-weight: bold;
+  background-image: url(../images/space.jpeg);
+}
+
+a {
+  color: #00B7FF;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  animation: move 2s infinite;
+  text-shadow:10px 10px #ffffff;
+  background-color: rgb(215, 250, 248);
+  border: solid #76a1b1 20px;
+  border-radius: 4rem;
+  padding: 20px;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+#canvas {
+  margin-bottom: 100px;
+  z-index: 10;
+  border-image: linear-gradient(#79848c, #b8b9cc);
+  border-image-slice: 1;
+  border-width: 20px;
+  border-style: solid;
+  width: 400px;
+}
+
+img {
+  width: 3rem;
+}
+
+/* Montior and Larger */
+@media (min-width: 1800px) {
+  #canvas {
+    width: 500px;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  img {
+    width: 5rem;
+  }
+}
+
+/* Large Smartphone (Vertical) */
+@media (max-width: 500px) {
+  #canvas {
+    width: 150px;
+    margin-top: 30px;
+    border-width: 5px;
+  }
+  h2 {
+    font-size: 1rem;
+    border: solid #76a1b1 5px;
+  }
+  img {
+    width: 1rem;
+  }
+}

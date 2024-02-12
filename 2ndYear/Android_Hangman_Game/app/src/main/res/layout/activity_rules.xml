@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RulesActivity">
+
+    <TextView
+        android:id="@+id/lblRulesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/aladin"
+        android:text="Magic Limitations"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblRules"
+        android:layout_width="387dp"
+        android:layout_height="641dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/aladin"
+        android:text="Though you are chosen to complete this task it would also be important to tell you about your limits as a magic user.\n\nFirst of all, you have only six hits of health given in order to take out your target. However, any complete word you culminate can take anything out in one shot. Though, it would be simple to name any word you have in mind it is completely random. So be prepared for the chances of you guessing the correct letters of the word are very low but never 0. For that reason things may get a little too tough for you. So, I have provided you with the ability to peak into the letters of the word. But, for everytime you use it your health is depleted. I am sure you can do this. That is why I chose you of course.\n\n- The One Above All"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblRulesTitle" />
+
+    <Button
+        android:id="@+id/btnBackRules"
+        android:layout_width="383dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="4dp"
+        android:text="Back"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblRules" />
+</androidx.constraintlayout.widget.ConstraintLayout>
